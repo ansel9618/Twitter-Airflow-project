@@ -62,3 +62,5 @@ Note: to set the gmail server make sure to make the changes in airflow.cfg file
       smtp_timeout = 30
       smtp_retry_limit = 5
 ```
+
+## Pipeline output

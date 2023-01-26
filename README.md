@@ -50,6 +50,11 @@ Acl enabling
 
 ![My Image](https://github.com/ansel9618/Twitter-Airflow-project/blob/main/images/ACL_enable.png)
 
+
+EC2 policy added
+
+![My Image](https://github.com/ansel9618/Twitter-Airflow-project/blob/main/images/EC2_policy_permission.png)
+
 ## step 6: now we can test the dag in airflow
 Note: to set the gmail server make sure to make the changes in airflow.cfg file
 
@@ -74,3 +79,28 @@ Note: to set the gmail server make sure to make the changes in airflow.cfg file
 ```
 
 ## Pipeline output
+
+Airflow pipeline Fail
+
+![My Image](https://github.com/ansel9618/Twitter-Airflow-project/blob/main/images/airflow_fail.png)
+
+
+Gmail Failed msg
+
+![My Image](https://github.com/ansel9618/Twitter-Airflow-project/blob/main/images/gmai_failed_msg.png)
+
+Airflow pipeline success
+
+![My Image](https://github.com/ansel9618/Twitter-Airflow-project/blob/main/images/airflow_success.png)
+
+Gmail success msg
+
+![My Image](https://github.com/ansel9618/Twitter-Airflow-project/blob/main/images/gmail_success_msg.png)
+
+csv file written to s3 bucket
+
+![My Image](https://github.com/ansel9618/Twitter-Airflow-project/blob/main/images/s3_bucket_csv_written.png)
+
+
+
+

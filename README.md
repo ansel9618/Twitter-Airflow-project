@@ -40,6 +40,16 @@ also make sure to test the 'airflow standalone' command in terminal
 create dag folder and using the nano command as root user create files and copy the twitter dag and etl files in it as mentioned above
 also make sure we have set the IAM policy in EC2 for s3 and ec2 to full access
 
+also make sure ACL permission are enabled
+
+s3 bucket policy added
+
+![My Image](https://github.com/ansel9618/Twitter-Airflow-project/blob/main/images/s3_bucket_policy.png)
+
+Acl enabling
+
+![My Image](https://github.com/ansel9618/Twitter-Airflow-project/blob/main/images/ACL_enable.png)
+
 ## step 6: now we can test the dag in airflow
 Note: to set the gmail server make sure to make the changes in airflow.cfg file
 
